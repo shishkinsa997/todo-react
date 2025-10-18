@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/shishkinsa997/todo-react/static/css/main.31d6cfe0.css",
+    "main.js": "/shishkinsa997/todo-react/static/js/main.0a4eb343.js",
+    "index.html": "/shishkinsa997/todo-react/index.html",
+    "main.0a4eb343.js.map": "/shishkinsa997/todo-react/static/js/main.0a4eb343.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.0a4eb343.js"
+  ]
+}
