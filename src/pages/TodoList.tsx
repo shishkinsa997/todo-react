@@ -3,7 +3,7 @@ export const TodoList = () => {
         <>
             <header className="header">
                 <div className="header-container">
-                    <a href="#">ToDo</a>
+                    <a href="#qwerty">ToDo</a>
                 </div>
             </header>
             <div className="form-wrapper">
