@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.scss';
-import { TodoList } from './pages/TodoList.jsx';
+import './custom.d.ts';
+import { TodoList } from './pages/TodoList';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
