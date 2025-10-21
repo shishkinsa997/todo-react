@@ -1,12 +1,19 @@
+import { Todo } from '../../../models/todo-item';
 import './TodoListItem.scss';
 
-export const TodoListItem = ({name}: {name: string}) => {
+export const TodoListItem = (props: {todoItem: Todo, updateTodo: Function, deleteTodo: Function}) => {
   return (
         <li className="todo-list-item__wrapper">
-            <span>{name}</span>
+            <span>{props.todoItem.text}</span>
             <div className="todo-list-item__buttons">
-                <button className="btn-trash"></button>
-                <button className="btn-check"></button>
+                <button
+                    className="btn-trash"
+                    onClick={() => props.deleteTodo(props.todoItem)}
+                ></button>
+                <button
+                  className={props.todoItem.isDone ? "btn-check" : "btn-uncheck"}
+                  onClick={() => props.updateTodo(props.todoItem)}
+                ></button>
             </div>
         </li>
   );
